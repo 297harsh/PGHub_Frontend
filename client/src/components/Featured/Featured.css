@@ -1,0 +1,38 @@
+/* Featured.css */
+.featured-container {
+  padding-top: 40px;
+  padding-bottom: 64px;
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 25px; /* Ensure container takes full width */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.sub-heading {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #9dcd0e;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2078e3;
+}
+
+.featured-cards {
+  display: flex;
+  justify-content: space-between; /* Space between cards */
+  gap: 30px;
+  margin-top: 32px;
+}
+
+.featured-card {
+  flex-basis: calc(33.33% - 16px); /* Ensure three cards fit in one row */
+  box-sizing: border-box;
+}

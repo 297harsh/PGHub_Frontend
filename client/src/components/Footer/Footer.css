@@ -1,0 +1,185 @@
+/* Base styles for all screen sizes */
+footer {
+  background: #232728;
+  color: white;
+  padding: 2rem 5%;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer_brand_logo {
+  margin-top: 2rem;
+  width: 15%;
+}
+
+.footer_brand_logo img {
+  width: 70%;
+  object-fit: contain;
+}
+
+#footer_links {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  gap: 8rem;
+  flex-wrap: wrap;
+}
+
+#footer_links .d-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+#footer_links a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: white;
+}
+
+#social_links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 40px;
+  margin-right: 20px;
+  padding: 1rem 0;
+}
+
+.social-icon {
+  color: #ffffff;
+  font-size: 21px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+/* Media Queries for responsiveness */
+
+/* Large screens (Desktops and large laptops) */
+@media (max-width: 1366px) {
+  .footer_brand_logo {
+    width: 20%;
+  }
+
+  #footer_links {
+    gap: 6rem;
+  }
+
+  #footer_links a {
+    font-size: 0.85rem;
+  }
+}
+
+/* Medium screens (Laptops and tablets) */
+@media (max-width: 1024px) {
+  .footer_brand_logo {
+    width: 25%;
+  }
+
+  #footer_links {
+    gap: 4rem;
+  }
+
+  #footer_links a {
+    font-size: 0.8rem;
+  }
+
+  #social_links {
+    gap: 30px;
+  }
+
+  .social-icon {
+    font-size: 19px;
+  }
+}
+
+/* Small screens (Tablets and small laptops) */
+@media (max-width: 768px) {
+  .footer_brand_logo {
+    width: 30%;
+  }
+
+  #footer_links {
+    gap: 2rem;
+  }
+
+  #footer_links a {
+    font-size: 0.75rem;
+  }
+
+  #social_links {
+    gap: 25px;
+  }
+
+  .social-icon {
+    font-size: 18px;
+  }
+}
+
+/* Mobile screens (Phones) */
+@media (max-width: 480px) {
+  .footer__content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer_brand_logo {
+    width: 40%;
+    margin-bottom: 1.5rem;
+  }
+
+  #footer_links {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  #footer_links a {
+    font-size: 0.7rem;
+  }
+
+  #social_links {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .social-icon {
+    font-size: 16px;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 320px) {
+  .footer_brand_logo {
+    width: 50%;
+  }
+
+  #footer_links {
+    gap: 1rem;
+  }
+
+  #footer_links a {
+    font-size: 0.65rem;
+  }
+
+  #social_links {
+    gap: 10px;
+  }
+
+  .social-icon {
+    font-size: 14px;
+  }
+}

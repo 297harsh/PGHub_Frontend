@@ -1,0 +1,12 @@
+.sidebar-appName {
+    text-transform: capitalize !important;
+}
+
+.sidebar-userSubName {
+    font-weight: "500" !important;
+    text-transform: capitalize !important;
+    color: #4caf50 !important;
+    font-family: "Source Sans Pro", sans-serif !important;
+    font-size: 14px !important;
+}
+
